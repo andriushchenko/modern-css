@@ -1,0 +1,90 @@
+$blue:   #2A74BF;
+$red:    #D7514C;
+$green:  #4D944B;
+$orange: #D8C11D;
+$grey:   #666;
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  margin-bottom: 50px;
+  figcaption {
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+  }
+  &:first-child {
+    figcaption {
+      background-color: $red;
+    }
+    img {
+      border: 1px solid $red;
+    }
+  }
+  &:nth-child(2) {
+    figcaption {
+      background-color: $blue;
+    }
+    img {
+    border: 1px solid $blue;
+    }
+  }
+  &:nth-child(3) {
+    figcaption {
+      background-color: $orange;
+    }
+    img {
+      border: 1px solid $orange;
+    }
+  }
+  &:last-child {
+    figcaption {
+    background-color: $green;
+    }
+    img {
+    border: 1px solid $green;
+    }
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+nav:first-child {
+  padding-left: 43px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    background-color: $blue;
+    color: white;
+  }
+
+.page-header {
+  border-bottom: 1px solid $blue;
+}
+
+.bottom-p {
+  background-color: $grey;
+  color: white;
+  padding-left: 73px;
+}
+
+  p {
+    padding: 15px;
+    margin-bottom: 0;
+  }

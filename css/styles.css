@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box; }
+
+html {
+  min-height: 100%; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+.item {
+  margin-bottom: 50px; }
+  .item figcaption {
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    padding: 10px; }
+  .item:first-child figcaption {
+    background-color: #D7514C; }
+  .item:first-child img {
+    border: 1px solid #D7514C; }
+  .item:nth-child(2) figcaption {
+    background-color: #2A74BF; }
+  .item:nth-child(2) img {
+    border: 1px solid #2A74BF; }
+  .item:nth-child(3) figcaption {
+    background-color: #D8C11D; }
+  .item:nth-child(3) img {
+    border: 1px solid #D8C11D; }
+  .item:last-child figcaption {
+    background-color: #4D944B; }
+  .item:last-child img {
+    border: 1px solid #4D944B; }
+  .item img {
+    width: 100%;
+    height: auto; }
+
+nav:first-child {
+  padding-left: 43px; }
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  background-color: #2A74BF;
+  color: white; }
+
+.page-header {
+  border-bottom: 1px solid #2A74BF; }
+
+.bottom-p {
+  background-color: #666;
+  color: white;
+  padding-left: 73px; }
+
+p {
+  padding: 15px;
+  margin-bottom: 0; }
+
+/*# sourceMappingURL=styles.css.map */
